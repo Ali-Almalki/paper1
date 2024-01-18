@@ -15,6 +15,7 @@ The research paper "Arabic Sign Language Recognition" presents an approach for a
 ## Dataset
 
 The dataset contains video recordings of 587 unique Arabic sign words collected from the [Saudi Sign Language Association website](https://sshi.sa/). Each word is expressed in a separate video clip. 
+
 The data can be found here:[Dataset](https://drive.google.com/drive/folders/1QE_SFWeMctKg4va-GOom5fXMNm94lgeX?usp=drive_link)
 
 The words cover categories such as directions, attributes, shapes, education, environment, home, health, social relations, opposites, jobs etc.
