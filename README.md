@@ -58,3 +58,6 @@ dataset structure diagram :
                |  
                
                +-- word_0_downsampled.mp4
+
+## Methodology
+The authors employed a two-step methodology for Arabic sign language recognition. Firstly, they fine-tuned the VideoMAE model separately on 15 independent subsets, each representing a unique sign word category. The model was trained for 4 epochs using default hyperparameters. Secondly, to improve recognition ability, the authors applied robust data augmentation techniques during training, including color inversion, downsampling, and multiplication. They increased the number of epochs to 16 to allow the models to learn richer representations from the augmented data.     
