@@ -60,4 +60,23 @@ dataset structure diagram :
                +-- word_0_downsampled.mp4
 
 ## Methodology
-The authors employed a two-step methodology for Arabic sign language recognition. Firstly, they fine-tuned the VideoMAE model separately on 15 independent subsets, each representing a unique sign word category. The model was trained for 4 epochs using default hyperparameters. Secondly, to improve recognition ability, the authors applied robust data augmentation techniques during training, including color inversion, downsampling, and multiplication. They increased the number of epochs to 16 to allow the models to learn richer representations from the augmented data.     
+The authors employed a two-step methodology for Arabic sign language recognition. Firstly, they fine-tuned the VideoMAE model separately on 15 independent subsets, each representing a unique sign word category. The model was trained for 4 epochs using default hyperparameters. Secondly, to improve recognition ability, the authors applied robust data augmentation techniques during training, including color inversion, downsampling, and multiplication. They increased the number of epochs to 16 to allow the models to learn richer representations from the augmented data.    
+
+## Applications
+The findings of this research have several potential applications, including:
+
+Arabic sign language interpretation software: The accurate recognition of Arabic sign language words can be integrated into interpretation software, enabling real-time translation of sign language conversations into spoken or written language.
+
+Sign language education: Robust recognition systems at the word level can enhance the learning experience for sign language learners by providing instant feedback and guidance.
+
+## Future Work
+
+Expanding the dataset diversity by including more signers and additional word types such as letters, numbers and verb conjugations. Benchmarking additional deep learning models.
+
+## Usage
+
+The Jupyter notebooks in this repository demonstrate the data preprocessing, model training and evaluation steps. Feel free to adapt the code for your needs.
+
+
+
+
