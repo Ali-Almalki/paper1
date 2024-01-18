@@ -31,17 +31,30 @@ For each word :
 - **Test** - Contains a separate downsampled version of the original clip for testing.
 
 dataset structure diagram :
+
           |
+          
           +-- Train 
+          
           |    |
+          
           |    +-- word_0.mp4
+          
           |    +-- word_0_transformedInvertColor.mp4 
+          
           |    +-- word_0_transformed_Multiply.mp4
+          
           |
           +-- Val
+          
           |    |
+          
           |    +-- word_0_downsampled.mp4
+          
           |
+          
           +-- Test
+          
                |  
+               
                +-- word_0_downsampled.mp4
