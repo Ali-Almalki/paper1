@@ -67,10 +67,20 @@ dataset structure diagram :
 | ![The output of color inversion augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20color%20inversion%20augmentation.png) | ![The output of downsampling augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20downsampling%20augmentation.png) | ![The output of multiplication augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20multiplication%20augmentation.png) |
 
 ## Methodology
-The authors employed a two-step methodology for Arabic sign language recognition. Firstly, they fine-tuned the VideoMAE model separately on 15 independent subsets, each representing a unique sign word category. The model was trained for 4 epochs using default hyperparameters. Secondly, to improve recognition ability, the authors applied robust data augmentation techniques during training, including color inversion, downsampling, and multiplication. They increased the number of epochs to 16 to allow the models to learn richer representations from the augmented data.  
+The authors employed a two-step methodology for Arabic sign language recognition. Firstly, they fine-tuned the VideoMAE model separately on 15 independent subsets, each representing a unique sign word category. The model was trained for 4 epochs using default hyperparameters. Secondly, to improve recognition ability, the authors applied robust data augmentation techniques during training, including color inversion, downsampling, and multiplication. They increased the number of epochs to 16 to allow the models to learn richer representations from the augmented data. 
+
+## Architectures details of VideoMAE
+
+The VideoMAE model serves as the backbone architecture for our Arabic sign language (ASL) word recognition system. VideoMAE consists of a masked autoencoder that encodes videos into a latent space representation and reconstructs the original videos from this representation. The model is pretrained on the Kinetics-400 dataset, which provides a rich source of diverse video data. By leveraging the pretraining, we enable the model to learn general features and temporal patterns that are relevant for video understanding tasks.
+The VideoMAE architecture is complemented with a vanilla vision transformer (ViT) backbone. The ViT component enhances the model's ability to capture spatial features and provides a strong foundation for visual representation learning.
+By combining the power of masked autoencoders with the spatial modeling capabilities of ViT, our proposed architecture achieves improved performance in ASL word recognition.
+
+![VideoMAE Architecture](https://github.com/Ali-Almalki/paper1/blob/main/img/VideoMAE%20Architecture.jpg)
 
 ## Results
 The project's evaluation demonstrates the effectiveness of the proposed approach. The average accuracy achieved across the 15 fine-tuned models was 97% on the test set. By employing data augmentation techniques and increasing the number of training epochs, the average test accuracy for individual models improved to 97%. The combined predictions from all models yielded an overall test accuracy of 97% on unseen data.
+
+
 
 ![Model Performance on Datasets 0 to 4](https://github.com/Ali-Almalki/paper1/blob/main/img/Model%20Performance%20on%20Datasets%200%20to%204.png)
 
