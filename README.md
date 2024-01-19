@@ -33,10 +33,6 @@ For each word :
 
 - **Test** - Contains a separate downsampled version of the original clip for testing.
  
-| The output of color inversion augmentation | The output of downsampling augmentation | The output of multiplication augmentation |
-|---------|---------|---------|
-| ![The output of color inversion augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20color%20inversion%20augmentation.png) | ![The output of downsampling augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20downsampling%20augmentation.png) | ![The output of multiplication augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20multiplication%20augmentation.png) |
-
 dataset structure diagram :
 
           |
@@ -65,6 +61,10 @@ dataset structure diagram :
                |  
                
                +-- word_0_downsampled.mp4
+               
+| The output of color inversion augmentation | The output of downsampling augmentation | The output of multiplication augmentation |
+|---------|---------|---------|
+| ![The output of color inversion augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20color%20inversion%20augmentation.png) | ![The output of downsampling augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20downsampling%20augmentation.png) | ![The output of multiplication augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20multiplication%20augmentation.png) |
 
 ## Methodology
 The authors employed a two-step methodology for Arabic sign language recognition. Firstly, they fine-tuned the VideoMAE model separately on 15 independent subsets, each representing a unique sign word category. The model was trained for 4 epochs using default hyperparameters. Secondly, to improve recognition ability, the authors applied robust data augmentation techniques during training, including color inversion, downsampling, and multiplication. They increased the number of epochs to 16 to allow the models to learn richer representations from the augmented data.  
