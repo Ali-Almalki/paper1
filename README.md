@@ -80,7 +80,7 @@ By combining the power of masked autoencoders with the spatial modeling capabili
 ## Results
 The project's evaluation demonstrates the effectiveness of the proposed approach. The average accuracy achieved across the 15 fine-tuned models was 97% on the test set. By employing data augmentation techniques and increasing the number of training epochs, the average test accuracy for individual models improved to 97%. The combined predictions from all models yielded an overall test accuracy of 97% on unseen data.
 
-### Model Performance across Datasets 
+  ### Model Performance across Datasets 
 
 <p align="center">
   <img src="https://github.com/Ali-Almalki/paper1/blob/main/img/Model%20Performance%20on%20Datasets%200%20to%204.png" alt="Model Performance on Datasets 0 to 4" width="30%">
@@ -88,7 +88,7 @@ The project's evaluation demonstrates the effectiveness of the proposed approach
   <img src="https://github.com/Ali-Almalki/paper1/blob/main/img/Model%20Performance%20on%20Datasets%2010%20to%2014.png" alt="Model Performance on Datasets 10 to 14" width="30%">
 </p>
 
-### Model's Word Prediction for video 
+  ### Model's Word Prediction for video 
 
 ![Model's Word Prediction for a Video1](https://github.com/Ali-Almalki/paper1/blob/main/img/Model's%20Word%20Prediction%20for%20a%20Video1.png)
 ![Model's Word Prediction for a Video2](https://github.com/Ali-Almalki/paper1/blob/main/img/Model's%20Word%20Prediction%20for%20a%20Video2.png)
