@@ -33,11 +33,9 @@ For each word :
 
 - **Test** - Contains a separate downsampled version of the original clip for testing.
 - 
-![The output of color inversion augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20color%20inversion%20augmentation.png)
-
-![The output of downsampling augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20downsampling%20augmentation.png)
-
-![The output of multiplication augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20multiplication%20augmentation.png)
+| Image 1 | Image 2 | Image 3 |
+|---------|---------|---------|
+| ![The output of color inversion augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20color%20inversion%20augmentation.png) | ![The output of downsampling augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20downsampling%20augmentation.png) | ![The output of multiplication augmentation](https://github.com/Ali-Almalki/paper1/blob/main/img/The%20output%20of%20multiplication%20augmentation.png) |
 
 dataset structure diagram :
 
