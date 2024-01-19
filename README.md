@@ -63,7 +63,16 @@ dataset structure diagram :
                +-- word_0_downsampled.mp4
 
 ## Methodology
-The authors employed a two-step methodology for Arabic sign language recognition. Firstly, they fine-tuned the VideoMAE model separately on 15 independent subsets, each representing a unique sign word category. The model was trained for 4 epochs using default hyperparameters. Secondly, to improve recognition ability, the authors applied robust data augmentation techniques during training, including color inversion, downsampling, and multiplication. They increased the number of epochs to 16 to allow the models to learn richer representations from the augmented data.    
+The authors employed a two-step methodology for Arabic sign language recognition. Firstly, they fine-tuned the VideoMAE model separately on 15 independent subsets, each representing a unique sign word category. The model was trained for 4 epochs using default hyperparameters. Secondly, to improve recognition ability, the authors applied robust data augmentation techniques during training, including color inversion, downsampling, and multiplication. They increased the number of epochs to 16 to allow the models to learn richer representations from the augmented data.  
+
+## Results
+The project's evaluation demonstrates the effectiveness of the proposed approach. The average accuracy achieved across the 15 fine-tuned models was 97% on the test set. By employing data augmentation techniques and increasing the number of training epochs, the average test accuracy for individual models improved to 97%. The combined predictions from all models yielded an overall test accuracy of 97% on unseen data.
+
+![Model Performance on Datasets 0 to 4](https://github.com/Ali-Almalki/paper1/blob/main/img/Model%20Performance%20on%20Datasets%200%20to%204.png)
+
+![Model Performance on Datasets 5 to 9](https://github.com/Ali-Almalki/paper1/blob/main/img/Model%20Performance%20on%20Datasets%205%20to%209.png)
+
+![Model Performance on Datasets 10 to 14](https://github.com/Ali-Almalki/paper1/blob/main/img/Model%20Performance%20on%20Datasets%2010%20to%2014.png)
 
 ## Applications
 The findings of this research have several potential applications, including:
