@@ -88,14 +88,15 @@ The project's evaluation demonstrates the effectiveness of the proposed approach
   <img src="https://github.com/Ali-Almalki/paper1/blob/main/img/Model%20Performance%20on%20Datasets%2010%20to%2014.png" alt="Model Performance on Datasets 10 to 14" width="30%">
 </p>
 
+  ### - Validation Loss and Accuracy on Dataset 14 
+  
+![Validation Loss and Accuracy on Dataset 14](https://github.com/Ali-Almalki/paper1/blob/main/img/Validation%20Loss%20and%20Accuracy%20on%20Dataset%2014.png)
+
   ### - Model's Word Prediction for video 
 
 ![Model's Word Prediction for a Video1](https://github.com/Ali-Almalki/paper1/blob/main/img/Model's%20Word%20Prediction%20for%20a%20Video1.png)
 ![Model's Word Prediction for a Video2](https://github.com/Ali-Almalki/paper1/blob/main/img/Model's%20Word%20Prediction%20for%20a%20Video2.png)
 
-  ### - Validation Loss and Accuracy on Dataset 14 
-  
-![Validation Loss and Accuracy on Dataset 14](https://github.com/Ali-Almalki/paper1/blob/main/img/Validation%20Loss%20and%20Accuracy%20on%20Dataset%2014.png)
 
 ## Applications
 The findings of this research have several potential applications, including:
