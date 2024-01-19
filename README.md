@@ -93,6 +93,10 @@ The project's evaluation demonstrates the effectiveness of the proposed approach
 ![Model's Word Prediction for a Video1](https://github.com/Ali-Almalki/paper1/blob/main/img/Model's%20Word%20Prediction%20for%20a%20Video1.png)
 ![Model's Word Prediction for a Video2](https://github.com/Ali-Almalki/paper1/blob/main/img/Model's%20Word%20Prediction%20for%20a%20Video2.png)
 
+  ### - Validation Loss and Accuracy on Dataset 14 
+  
+![Validation Loss and Accuracy on Dataset 14](https://github.com/Ali-Almalki/paper1/blob/main/img/Validation%20Loss%20and%20Accuracy%20on%20Dataset%2014.png)
+
 ## Applications
 The findings of this research have several potential applications, including:
 
