@@ -87,8 +87,7 @@ The project's evaluation demonstrates the effectiveness of the proposed approach
   <img src="https://github.com/Ali-Almalki/paper1/blob/main/img/Model%20Performance%20on%20Datasets%2010%20to%2014.png" alt="Model Performance on Datasets 10 to 14" width="30%">
 </p>
 
-![Model's Word Prediction for a Video1](https://github.com/Ali-Almalki/paper1/blob/main/img/Model's%20Word%20Prediction%20for%20a%20Video1.png)
-(https://github.com/Ali-Almalki/paper1/blob/main/img/Model's%20Word%20Prediction%20for%20a%20Video2.png)
+![Model's Word Prediction for a Video1](https://github.com/Ali-Almalki/paper1/blob/main/img/Model's%20Word%20Prediction%20for%20a%20Video1.png , https://github.com/Ali-Almalki/paper1/blob/main/img/Model's%20Word%20Prediction%20for%20a%20Video2.png)
 
 ## Applications
 The findings of this research have several potential applications, including:
