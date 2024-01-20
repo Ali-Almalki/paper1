@@ -10,7 +10,8 @@ Authors: [Author 1]
 Keywords: Transformer, Deaf community, Attention model, Arabic sign language (ArSL) <br>
 
 ## Summary
-The research paper "Arabic Sign Language Recognition" presents an approach for automatic recognition of Arabic sign language words from video data. The authors developed a new dataset specifically designed for Arabic sign language and evaluated state-of-the-art deep learning techniques to achieve accurate recognition. The paper highlights the potential of computer vision and language models in understanding and interpreting sign language communication.
+The research paper "Arabic Sign Language Recognition" presents an approach for automatic recognition of Arabic sign language words from video data. The authors developed a new dataset specifically designed for Arabic sign language . 
+The paper highlights the potential of computer vision and language models in understanding and interpreting sign language communication.
 
 ## Dataset
 
