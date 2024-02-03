@@ -15,7 +15,9 @@ The paper highlights the potential of computer vision and language models in und
 
 ## Dataset
 
-The dataset contains video recordings of 587 unique Arabic sign words collected from the [Saudi Sign Language Association website](https://sshi.sa/). Each word is expressed in a separate video clip. Each word is expressed in a separate video clip. The data can be found here:Dataset The words cover categories such as directions, attributes, shapes, education, environment, home, health, social relations, opposites, jobs etc. 
+The dataset contains video recordings of 587 unique Arabic sign words collected from the [Saudi Sign Language Association website](https://sshi.sa/).  Each word is expressed in a separate video clip. 
+The data can be found here:[Dataset](https://drive.google.com/drive/folders/1QE_SFWeMctKg4va-GOom5fXMNm94lgeX?usp=drive_link)
+The words cover categories such as directions, attributes, shapes, education, environment, home, health, social relations, opposites, jobs etc.  
 
 ![An illustrative video excerpt from the dataset](https://github.com/Ali-Almalki/paper1/blob/main/img/An%20illustrative%20video%20excerpt%20from%20the%20dataset.png)
 
