@@ -1,4 +1,4 @@
-# Enhancing Arabic Sign Language Recognition using Saudi Arabian Dataset: VideoMAE and Data Augmentation Techniques
+# Achieving State-of-the-Art Accuracy in Arabic Sign Language Recognition with VideoMAE and Data Augmentation
 This README file provides an overview of the research paper titled "Arabic Sign Language Recognition." It summarizes the objectives, Dataset, methodology, key findings, and potential applications of the study. 
 
 ## Paper Information
